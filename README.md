@@ -13,7 +13,7 @@ By integrating Centers for Disease Control and Prevention (CDC) Social Vulnerabi
 * **`Colorado_NRI.csv` & `Minnesota_NRI.csv`**: Filtered FEMA National Risk Index datasets.
 * **`Colorado.csv` & `Minnesota.csv`**: CDC Social Vulnerability Index (SVI) datasets.
 * **`NRIDataDictionary.csv`**: Reference dictionary for the FEMA NRI metrics.
-* **`Shapefiles/`**: Directory containing the `.shp`, `.dbf`, `.shx`, and `.prj` files required for GeoPandas rendering.
+* **`Shapefiles`**: Directory containing the `.shp`, `.dbf`, `.shx`, and `.prj` files required for GeoPandas rendering.
 
 ## Methodology: The Proposed Risk Model
 This analysis replaces FEMA's standard additive risk scoring with a **Multiplicative Risk Model**. To eliminate the bias of raw property value overshadowing vulnerable populations, all variables were Min-Max normalized (0 to 1 scale) and calculated at the Census Tract level:
