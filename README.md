@@ -31,5 +31,5 @@ This analysis replaces FEMA's standard additive risk scoring with a **Multiplica
 To reproduce this analysis locally:
 1. Clone this repository.
 2. Ensure you have the following Python packages installed: `pandas`, `numpy`, `matplotlib`, `seaborn`, and `geopandas`.
-3. Verify that the `Shapefiles` directory is in the same working directory as the Jupyter Notebook.
+3. Verify that the `Shapefiles` files is in the same working directory as the Jupyter Notebook. They originate from the Raw Data folder
 4. Run all cells in `CIVE202_Spring2026_G09_Project4_Python.ipynb`.
